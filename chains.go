@@ -41,37 +41,37 @@ type Underlying struct {
 }
 
 type ExpDateOption struct {
-	PutCall                string  `json:"putCall"`
-	Symbol                 string  `json:"symbol"`
-	Description            string  `json:"description"`
-	ExchangeName           string  `json:"exchangeName"`
-	Bid                    float64 `json:"bid"`
-	Ask                    float64 `json:"ask"`
-	Last                   float64 `json:"last"`
-	Mark                   float64 `json:"mark"`
-	BidSize                int     `json:"bidSize"`
-	AskSize                int     `json:"askSize"`
-	BidAskSize             string  `json:"bidAskSize"`
-	LastSize               float64 `json:"lastSize"`
-	HighPrice              float64 `json:"highPrice"`
-	LowPrice               float64 `json:"lowPrice"`
-	OpenPrice              float64 `json:"openPrice"`
-	ClosePrice             float64 `json:"closePrice"`
-	TotalVolume            int     `json:"totalVolume"`
-	TradeDate              string  `json:"tradeDate"`
-	TradeTimeInLong        int     `json:"tradeTimeInLong"`
-	QuoteTimeInLong        int     `json:"quoteTimeInLong"`
-	NetChange              float64 `json:"netChange"`
-	Volatility             float64 `json:"volatility"`
-	Delta                  float64 `json:"delta"`
-	Gamma                  float64 `json:"gamma"`
-	Theta                  float64 `json:"theta"`
-	Vega                   float64 `json:"vega"`
-	Rho                    float64 `json:"rho"`
-	OpenInterest           int     `json:"openInterest"`
-	TimeValue              float64 `json:"timeValue"`
-	TheoreticalOptionValue float64 `json:"theoreticalOptionValue"`
-	TheoreticalVolatility  float64 `json:"theoreticalVolatility"`
+	PutCall         string  `json:"putCall"`
+	Symbol          string  `json:"symbol"`
+	Description     string  `json:"description"`
+	ExchangeName    string  `json:"exchangeName"`
+	Bid             float64 `json:"bid"`
+	Ask             float64 `json:"ask"`
+	Last            float64 `json:"last"`
+	Mark            float64 `json:"mark"`
+	BidSize         int     `json:"bidSize"`
+	AskSize         int     `json:"askSize"`
+	BidAskSize      string  `json:"bidAskSize"`
+	LastSize        float64 `json:"lastSize"`
+	HighPrice       float64 `json:"highPrice"`
+	LowPrice        float64 `json:"lowPrice"`
+	OpenPrice       float64 `json:"openPrice"`
+	ClosePrice      float64 `json:"closePrice"`
+	TotalVolume     int     `json:"totalVolume"`
+	TradeDate       string  `json:"tradeDate"`
+	TradeTimeInLong int     `json:"tradeTimeInLong"`
+	QuoteTimeInLong int     `json:"quoteTimeInLong"`
+	NetChange       float64 `json:"netChange"`
+	// Volatility             float64 `json:"volatility"`
+	// Delta                  float64 `json:"delta"`
+	// Gamma                  float64 `json:"gamma"`
+	// Theta                  float64 `json:"theta"`
+	// Vega                   float64 `json:"vega"`
+	// Rho                    float64 `json:"rho"`
+	OpenInterest int `json:"openInterest"`
+	// TimeValue              float64 `json:"timeValue"`
+	// TheoreticalOptionValue float64 `json:"theoreticalOptionValue"`
+	// TheoreticalVolatility  float64 `json:"theoreticalVolatility"`
 	OptionDeliverablesList string  `json:"optionDeliverablesList"`
 	StrikePrice            float64 `json:"strikePrice"`
 	ExpirationDate         int     `json:"expirationDate"`
